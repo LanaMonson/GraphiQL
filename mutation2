@@ -1,0 +1,26 @@
+mutation{
+  addLyricToSong(songId: "5c34e1f705e2630275e48aa5", content: "Oh my oh my its a cold night") {
+    id
+  }
+}
+
+//Output:
+{
+  "data": {
+    "addLyricToSong": null
+  },
+  "errors": [
+    {
+      "message": "Unknown modifier: $pushAll",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "path": [
+        "addLyricToSong"
+      ]
+    }
+  ]
+}
