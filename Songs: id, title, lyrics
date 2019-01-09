@@ -1,0 +1,22 @@
+{
+  songs{
+    id
+    title
+    lyrics{
+      content
+    }
+  }
+}
+
+//Output: 
+{
+  "data": {
+    "songs": [
+      {
+        "id": "5c34e1f705e2630275e48aa5",
+        "title": "Cold Night",
+        "lyrics": []
+      }
+    ]
+  }
+}
