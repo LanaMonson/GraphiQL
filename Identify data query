@@ -1,0 +1,16 @@
+{
+  songs{
+    title
+  }
+}
+
+//Output: 
+{
+  "data": {
+    "songs": [
+      {
+        "title": "Cold Night"
+      }
+    ]
+  }
+}
