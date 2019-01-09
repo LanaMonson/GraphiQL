@@ -1,0 +1,14 @@
+mutation{
+  addSong(title: "Cold Night"){
+    id 
+  }
+}
+
+//Output:
+{
+  "data": {
+    "addSong": {
+      "id": "5c35003405e2630275e48aa9"
+    }
+  }
+}
