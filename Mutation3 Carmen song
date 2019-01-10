@@ -1,0 +1,17 @@
+mutation{
+  addSong(title: "Carmen"){
+    id
+    title
+  }
+}
+
+
+//Output:
+{
+  "data": {
+    "addSong": {
+      "id": "5c366adb05e2630275e48aab",
+      "title": "Carmen"
+    }
+  }
+}
