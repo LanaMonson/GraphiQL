@@ -1,0 +1,21 @@
+mutation AddSong($title: String){
+  addSong(title: $title) {
+    id
+    title
+  } 
+}
+
+//Query variables:
+{
+  "title": "Thriller"
+}
+
+//Output:
+{
+  "data": {
+    "addSong": {
+      "id": "5c36775505e2630275e48aae",
+      "title": "Thriller"
+    }
+  }
+}
