@@ -1,0 +1,47 @@
+{
+  songs{
+    id
+    title
+  }
+}
+
+//Output:
+
+{
+  "data": {
+    "songs": [
+      {
+        "id": "5c34e1f705e2630275e48aa5",
+        "title": "Cold Night"
+      },
+      {
+        "id": "5c35003405e2630275e48aa9",
+        "title": "Baby Dont Go"
+      },
+      {
+        "id": "5c366adb05e2630275e48aab",
+        "title": "Carmen"
+      },
+      {
+        "id": "5c36775505e2630275e48aae",
+        "title": "Thriller"
+      },
+      {
+        "id": "5c3d1aea51d27c2e02fa5a71",
+        "title": "Everybody"
+      },
+      {
+        "id": "5c3d1bc151d27c2e02fa5a72",
+        "title": "Like a Prayer"
+      },
+      {
+        "id": "5c3d1bfc51d27c2e02fa5a73",
+        "title": "When Doves Cry"
+      },
+      {
+        "id": "5c3d293151d27c2e02fa5a74",
+        "title": "Sorry"
+      }
+    ]
+  }
+}
