@@ -1,0 +1,36 @@
+//Query variables
+{
+  "songId": "5c3d1aea51d27c2e02fa5a71",
+  "content": "Everybody yeah"
+}
+
+GraphiQL:
+mutation AddLyricToSong($content: String, $songId: ID) {
+  addLyricToSong(content: $content, songId: $songId) {
+    id
+    lyrics {
+      content
+    }
+  }
+}
+
+//Output:
+{
+  "data": {
+    "addLyricToSong": null
+  },
+  "errors": [
+    {
+      "message": "Unknown modifier: $pushAll",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "path": [
+        "addLyricToSong"
+      ]
+    }
+  ]
+}
