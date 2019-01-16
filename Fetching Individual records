@@ -1,0 +1,22 @@
+//Query variables
+{
+  "id": "5c3d1aea51d27c2e02fa5a71"
+}
+
+
+query SongQuery($id: ID!) {
+  song(id: $id) {
+    id
+    title
+  }
+}
+
+//Output:
+{
+  "data": {
+    "song": {
+      "id": "5c3d1aea51d27c2e02fa5a71",
+      "title": "Everybody"
+    }
+  }
+}
