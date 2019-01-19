@@ -1,0 +1,18 @@
+{
+  user(id: "31") {
+    id,
+    firstName,
+    age
+  }
+}
+
+//Output: 
+{
+  "data": {
+    "user": {
+      "id": "31",
+      "firstName": "Helena",
+      "age": 28
+    }
+  }
+}
