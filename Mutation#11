@@ -1,0 +1,42 @@
+{
+  songs {
+    id
+  }
+}
+
+//Query variables:
+{
+  "id": "5c3f6e1ce1a8f9402fc27f9a"
+}
+
+//Output:
+{
+  "data": {
+    "songs": [
+      {
+        "id": "5c3f6df9e1a8f9402fc27f98"
+      },
+      {
+        "id": "5c3f6e0ee1a8f9402fc27f99"
+      },
+      {
+        "id": "5c3f6e1ce1a8f9402fc27f9a"
+      },
+      {
+        "id": "5c3f6e2ce1a8f9402fc27f9b"
+      },
+      {
+        "id": "5c3f6e40e1a8f9402fc27f9c"
+      },
+      {
+        "id": "5c3f6e50e1a8f9402fc27f9d"
+      },
+      {
+        "id": "5c3f6e5de1a8f9402fc27f9e"
+      },
+      {
+        "id": "5c48c484ff0fcc6626ce1652"
+      }
+    ]
+  }
+}
