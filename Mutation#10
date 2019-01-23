@@ -1,0 +1,21 @@
+query SongQuery($id: ID!) {
+  song(id: $id) {
+    id
+    title
+  }
+}
+
+//Query variables:
+{
+  "id": "5c3f6df9e1a8f9402fc27f98"
+}
+
+//Output:
+{
+  "data": {
+    "song": {
+      "id": "5c3f6df9e1a8f9402fc27f98",
+      "title": "Hey Jude"
+    }
+  }
+}
